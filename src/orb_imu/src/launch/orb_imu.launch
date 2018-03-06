@@ -1,6 +1,6 @@
 <launch>
 
-  <node name="Mono" pkg="orb_imu" args="/home/jinyao/ORB_IMU/src/ORB_SLAM2/Vocabulary/ORBvoc.txt  /home/jinyao/ORB_IMU/src/ORB_SLAM2/Examples/Monocular/euroc_cam_0.yaml" type="Mono">
+  <node name="Mono" pkg="orb_imu" args="/home/jinyao/ORB_IMU/src/ORB_SLAM2/Vocabulary/ORBvoc.bin  /home/jinyao/ORB_IMU/src/ORB_SLAM2/Examples/Monocular/euroc_cam_0.yaml" type="Mono">
     <remap from="/image_raw" to="cam0/image_raw" />
   </node>
 

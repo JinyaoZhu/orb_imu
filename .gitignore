@@ -12,6 +12,7 @@ src/ORB_SLAM2/Thirdparty/g2o/build/
 src/ORB_SLAM2/Thirdparty/g2o/config.h
 src/ORB_SLAM2/Thirdparty/g2o/lib/
 src/ORB_SLAM2/Vocabulary/ORBvoc.txt
+src/ORB_SLAM2/Vocabulary/ORBvoc.bin
 
 src/orb_imu/lib/
 src/ORB_SLAM2/lib/
