@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>orb_imu</name>
+  <description>ORB_IMU</description>
+  
+  <version>0.0.1</version>
+  <author>J.Zhu</author>
+  <maintainer email="jinyao383@hotmail.com">J.Zhu</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+
+</package>
+
+
+
